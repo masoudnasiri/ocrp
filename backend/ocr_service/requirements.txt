@@ -1,0 +1,5 @@
+pika
+pytesseract
+opencv-python
+numpy
+json

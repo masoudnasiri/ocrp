@@ -1,0 +1,17 @@
+pika
+torch
+sudo apt install curl -y
+cd /tmp
+curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.07-2-Linux-x86_64.sh
+sha256sum anaconda.sh
+bash anaconda.sh
+source ~/.bashrc
+conda --version
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+or
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+opencv-python
+ultralytics
+conda install -c conda-forge ultralytics
+numpy
+sudo apt install python3-numpy
